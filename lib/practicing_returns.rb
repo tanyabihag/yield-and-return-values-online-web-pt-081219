@@ -1,4 +1,4 @@
-require 'pry'
+ equire 'pry'
 
 def hello(array)
   i = 0
@@ -9,4 +9,4 @@ def hello(array)
 end
 
 
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
